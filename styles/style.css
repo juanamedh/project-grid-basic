@@ -61,6 +61,14 @@ main {
     margin: 100px 0;
 }
 
+.dishes__title {
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2rem;
+}
+
 .dishes__grid {
     display: grid;
     grid-template-columns: repeat(4, minmax(150px, 250px));
