@@ -55,3 +55,9 @@ main {
     font-weight: bolder;
     padding: 12px 24px;
 }
+
+.dishes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+}
