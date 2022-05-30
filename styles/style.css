@@ -57,8 +57,11 @@ main {
     padding: 12px 24px;
 }
 
-.dishes__grid {
+.dishes {
     margin: 100px 0;
+}
+
+.dishes__grid {
     display: grid;
     grid-template-columns: repeat(4, minmax(150px, 250px));
     grid-template-rows: 1fr;
