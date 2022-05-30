@@ -28,5 +28,30 @@ main {
 
 .hero__info {
     align-self: center;
+}
+
+.hero__info h1 {
+    color: #333;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.hero__info p {
+    color: #333;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.hero__info button {
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    color: #333;
+    background-color: #fb8c00;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    font-weight: bolder;
     
+    padding: 12px 24px;
 }
